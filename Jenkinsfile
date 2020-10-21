@@ -4,7 +4,7 @@ pipeline {
             stage('Init') {
                   steps {
                         echo 'Hi, this is Xavier learning Code Pipeline'
-                        echo 'We are Starting the Testing'
+                        echo 'We are Starting the Testing, and deployment into Prod'
                   }
             }
             stage('Build') {
